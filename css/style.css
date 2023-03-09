@@ -82,6 +82,12 @@ body {
   color: var(--text-color);
   opacity: 0.9;
 }
+
+#menu-icon {
+  font-size: 3.6rem;
+  color: var(--text-color);
+  display: none;
+}
 section {
   min-height: 100vh;
   padding: 10rem 7% 2rem;
@@ -215,12 +221,12 @@ section {
   border-bottom: 384px solid var(--main-color);
   border-left: 384px solid transparent;
 }
-.home-img {
+.home-img img {
   position: absolute;
-  display: flex;
-  width: 100%;
+  bottom: 0;
+  right: -50px;
+  width: 45%;
   pointer-events: none;
-  justify-content: flex-end;
 }
 
 span {
