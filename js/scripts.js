@@ -20,4 +20,16 @@ window.onscroll = () => {
   // sticky navbar//
   let header = document.querySelector(".header");
   header.classList.toggle("sticky", window.scrollY > 100);
+
+  // remove sandwich navbar icon when click navbar link(scroll)//
+  menuIcon.classList.remove("bx-x");
+  navbar.classList.remove("active");
+};
+// sandwichnavbar//
+let menuIcon = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
+
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle("bx-x");
+  navbar.classList.toggle("active");
 };
