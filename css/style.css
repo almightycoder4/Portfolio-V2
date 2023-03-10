@@ -708,10 +708,20 @@ span {
     transform-origin: 0;
   }
 
+  .profession-container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 768px;
+    height: 768px;
+    overflow: hidden;
+    pointer-events: none;
+  }
   .home .profession-container .profession-box {
     position: fixed;
     top: 55%;
-    left: -100px;
+    left: -26%;
     border-radius: 0;
     width: 150%;
   }
