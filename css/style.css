@@ -746,6 +746,35 @@ span {
   .contact form .input-box input {
     width: 100%;
   }
+
+  .services .services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .services-container .services-box {
+    width: 115px;
+    height: 115px;
+    background: var(--bg-color);
+    padding: 2rem 2rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 0.1rem 0.5rem var(--shadow-color);
+    text-align: center;
+    border-top: 0.6rem solid var(--main-color);
+    border-bottom: 0.6rem solid var(--main-color);
+    transition: 0.5s ease;
+  }
+
+  .services-box i {
+    font-size: 5rem;
+    color: var(--main-color);
+  }
+
+  .services-box h3 {
+    font-size: 1.6rem;
+  }
 }
 @media (max-width: 365px) {
   .about-img img {
