@@ -786,6 +786,13 @@ span {
   .portfolio-layer h3 {
     font-size: 15px;
   }
+  .footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--main-color);
+  }
 }
 @media (max-width: 365px) {
   .about-img img {
