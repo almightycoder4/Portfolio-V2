@@ -693,7 +693,7 @@ span {
 }
 @media (max-width: 450px) {
   .header {
-    width: 85%;
+    width: 87%;
   }
   .home .profession-container .overlay {
     position: fixed;
