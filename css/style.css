@@ -492,7 +492,7 @@ span {
     gap: 2.5rem;
   }
 }
-@media (max-width: 1600px) {
+@media (max-width: 1620px) {
   .home-img img {
     position: absolute;
     bottom: 110px;
@@ -501,13 +501,35 @@ span {
     pointer-events: none;
   }
   html {
-    font-size: 10%;
+    font-size: 60%;
+  }
+  .portfolio-layer p {
+    font-size: 14px;
+    margin: -0.7rem 0 1rem;
+  }
+  .portfolio-layer h4 {
+    font-size: 3rem;
+  }
+  .portfolio-layer h3 {
+    font-size: 15px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   html {
     font-size: 55%;
   }
+
+  .portfolio-layer p {
+    font-size: 12px;
+    margin: -0.7rem 0 1rem;
+  }
+  .portfolio-layer h4 {
+    font-size: 3rem;
+  }
+  .portfolio-layer h3 {
+    font-size: 15px;
+  }
+
   .home .profession-container {
     height: 85.8rem;
   }
@@ -531,6 +553,17 @@ span {
   }
   .home .profession-container .overlay {
     right: -15rem;
+  }
+
+  .portfolio-layer p {
+    font-size: 10px;
+    margin: -0.7rem 0 1rem;
+  }
+  .portfolio-layer h4 {
+    font-size: 2rem;
+  }
+  .portfolio-layer h3 {
+    font-size: 10px;
   }
 }
 
