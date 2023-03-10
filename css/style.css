@@ -692,8 +692,8 @@ span {
   }
 }
 @media (max-width: 450px) {
-  .html {
-    font-size: 50%;
+  .header {
+    width: 85%;
   }
   .home .profession-container .overlay {
     position: fixed;
@@ -702,6 +702,18 @@ span {
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
     border-width: 23.9rem;
+  }
+  .home .profession-box .profession {
+    left: 193px;
+    transform-origin: 0;
+  }
+
+  .home .profession-container .profession-box {
+    position: fixed;
+    top: 55%;
+    left: -100px;
+    border-radius: 0;
+    width: 150%;
   }
   #darkMode-icon {
     right: 6rem;
