@@ -730,7 +730,7 @@ span {
   }
   .home .profession-container .overlay {
     position: fixed;
-    top: 75rem;
+    top: 81rem;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -753,7 +753,7 @@ span {
   }
   .home .profession-container .profession-box {
     position: fixed;
-    top: 55%;
+    top: 57%;
     left: -26%;
     border-radius: 0;
     width: 150%;
